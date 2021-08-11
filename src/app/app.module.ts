@@ -7,10 +7,12 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TopBarModule } from './top-bar/top-bar.module';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
+    MainMenuComponent,
   ],
   imports: [
     BrowserModule,
