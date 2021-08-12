@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TopBarModule } from './top-bar/top-bar.module';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { StoreModule } from '@ngrx/store';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    TopBarModule
+    TopBarModule,
+    StoreModule.forRoot({}, {})
   ],
   providers: [],
   bootstrap: [AppComponent]
